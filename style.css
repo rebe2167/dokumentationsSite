@@ -9,6 +9,49 @@ body {
 
 }
 
+img {
+    width: 70%;
+
+}
+
+
+article {
+    margin: 6vw;
+}
+
+.imgwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+.fotostil {
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    top: 2vw;
+}
+
+#butik {
+    background-image: url(billeder/fotostil.png);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+#produkt {
+    background-image: url(billeder/fotostil2.png);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+}
+
+
 
 
 
@@ -117,14 +160,39 @@ section {
 h1 {
     text-align: center;
     font-family: 'vag';
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
 }
 
-/*
+h2 {
+    text-align: center;
+    font-family: 'vag';
+    letter-spacing: 0.5px;
+    font-size: 1.25rem;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'vag';
+    letter-spacing: 0.5px;
+    font-size: 1.25rem;
+}
+
+li {
+    text-align: center;
+    font-family: 'pt sans';
+    letter-spacing: 0.5px;
+
+}
+
+
 p {
     text-align: center;
-    font-family: 'roboto';
+    font-family: 'pt sans';
+    letter-spacing: 0.5px;
 }
-*/
+
+
 
 footer {
     background-color: white;
@@ -147,7 +215,9 @@ footer {
 
 #gruppe_spil #billede_og_link {
     text-align: center;
+
 }
+
 
 #gruppe_spil #billede_og_link img {
     text-align: center;
