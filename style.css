@@ -114,7 +114,8 @@ nav a {
 }
 
 .dropdown:hover .drop_button {
-    background-color: #2c2b28;
+    background-color: grey;
+    cursor: pointer;
 }
 
 .dropdown_content {
