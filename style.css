@@ -26,8 +26,6 @@ article {
 
 }
 
-
-
 .fotostil {
     width: 20vw;
     height: 20vw;
@@ -157,6 +155,7 @@ section {
     padding: 1vw;
 }
 
+/*** headlines ***/
 h1 {
     text-align: center;
     font-family: 'vag';
@@ -178,6 +177,13 @@ h3 {
     font-size: 1.25rem;
 }
 
+/*** skrift og punkter ***/
+p {
+    text-align: center;
+    font-family: 'pt sans';
+    letter-spacing: 0.5px;
+}
+
 li {
     text-align: center;
     font-family: 'pt sans';
@@ -185,30 +191,44 @@ li {
 
 }
 
-
-p {
-    text-align: center;
-    font-family: 'pt sans';
-    letter-spacing: 0.5px;
-}
-
-
+/*** footer ***/
 footer {
     background-color: white;
     margin: 2vw;
     padding: 1vw;
     text-align: center;
-    font-family: 'roboto';
-    font-size: 1rem
+    font-family: 'pt sans';
+    font-size: 1rem;
+    letter-spacing: 0.5px;
 }
 
-.link {
+/*** links ***/
+a:link {
     text-align: center;
-    font-family: 'roboto';
+    font-family: 'pt sans';
+    font-weight: bold;
     font-size: 1rem;
-    text-decoration: none;
+    color: black;
+    letter-spacing: 0.5px;
+
+}
+
+/*** visited link ***/
+a:visited {
     color: black;
 }
+
+/*** mouse over link ***/
+a:hover {
+    color: grey;
+}
+
+/*** selected link ***/
+a:active {
+    color: black;
+}
+
+
 
 /*------- STARTSIDE -----*/
 
@@ -248,6 +268,14 @@ footer {
 .stand {
     height: 49%;
     width: 49%;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 /*------- TEST DOKUMENTATION -----*/
