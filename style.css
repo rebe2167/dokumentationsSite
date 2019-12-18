@@ -178,19 +178,37 @@ h3 {
     font-size: 1.25rem;
 }
 
-/*** skrift og punkter ***/
+/*** skrift ***/
 p {
     text-align: center;
     font-family: 'pt sans';
     letter-spacing: 0.5px;
 }
 
+/*** lister ***/
 li {
     text-align: center;
     font-family: 'pt sans';
     letter-spacing: 0.5px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 
 }
+
+
+/*display: block;
+    list-style-type: disc;
+
+    width: 12%;
+    margin: auto;*/
 
 /*** footer ***/
 footer {
@@ -243,7 +261,6 @@ a:active {
     text-align: center;
 }
 
-/*------- SPILSTRUKTUR -----*/
 /*------- MÅLGRUPPE -----*/
 /*------- MOODBOARD -----*/
 
@@ -281,11 +298,7 @@ a:active {
 
 
 /*------- TEST DOKUMENTATION -----*/
-/*------- FERNISERING -----*/
 /*------- TRELLO BOARD -----*/
 .trello {
     align-content: center;
 }
-
-/*------- BURNDOWN CHART -----*/
-/*------- MOCKUP ANNOUNCE -----*/
